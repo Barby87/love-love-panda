@@ -1,0 +1,41 @@
+.container-fluid {
+  background-color: rgb(245, 135, 61);
+  padding: 0;
+  }
+
+h1, h6 {
+  color: white;
+  text-align: right;
+  padding: 1%;
+}
+
+.imgUno {
+  background-image: url(../img/uno.jpg);
+  padding: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgDos {
+  background-image: url(../img/dos.jpg);
+  padding: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.justify-content-md-center {
+  background-color: rgb(97, 247, 117);
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.col-md-auto {
+  background-color:  rgb(245, 135, 61);
+  color:white;
+  width: 40%;
+}
+
+.bloque {
+  padding: 2em;
+}
+
