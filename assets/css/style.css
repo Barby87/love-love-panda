@@ -1,26 +1,28 @@
 .container-fluid {
   background-color: rgb(245, 135, 61);
-  padding: 0;
-  }
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 
-h1, h6 {
+#head1 {
+  padding: 2em;
+}
+
+#titulo {
   color: white;
   text-align: right;
-  padding: 1%;
 }
 
 .imgUno {
   background-image: url(../img/uno.jpg);
   padding: 30%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: cover; /* para que la imagen ocupe todo el ancho de la página*/
+  background-repeat: no-repeat; /* para que la imagen no se repita*/ 
 }
 
-.imgDos {
-  background-image: url(../img/dos.jpg);
-  padding: 30%;
-  background-size: cover;
-  background-repeat: no-repeat;
+#about {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .justify-content-md-center {
@@ -32,10 +34,46 @@ h1, h6 {
 .col-md-auto {
   background-color:  rgb(245, 135, 61);
   color:white;
+  text-align: center;
   width: 40%;
 }
 
-.bloque {
-  padding: 2em;
+.imgDos {
+  background-image: url(../img/dos.jpg);
+  padding: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
+#pictures {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#green {
+  background-color: rgb(97, 247, 117);
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+h1 {
+  color: white;
+}
+
+.img-thumbnail {
+  margin: 1%;
+}
+
+.imgTres {
+  background-image: url(../img/tres.jpg);
+  padding: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  color: white;
+  text-align: right;
+  padding-top: 1em;
+}
